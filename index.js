@@ -12,7 +12,7 @@ const run = async () => {
     await github.getStoredGithubToken();
     token = await github.registerNewToken();
   }
-  console.log(token);
+  console.log(token); 
 }
 
 clear();
